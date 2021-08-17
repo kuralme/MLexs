@@ -1,0 +1,39 @@
+Hi Ege,
+
+This is Satya Mallick from LearnOpenCV.com.
+
+The task of assigning a label to a picture is called Image Classification and is a very well studied topic in Computer Vision. Often you find ready-to-use models which you can tune ( or re-train ) according to your problem requirements and get decent results.
+
+However, when you aren't satisfied with the result, improving the model may seem a daunting task. In today's post we share a few tricks which can help boost the performance of your training pipeline.
+
+    Large Batch Training
+    LR Warm-up
+    Mixed Precision operations
+    Cosine LR Decay
+    Label Smoothing
+    Knowledge Distillation
+    Mix-up Augmentation
+
+Let not the fancy sounding terms scare you. We explain what they mean and also share code example for implementing the above tricks. Read the complete article to find more details about these tricks:
+
+https://www.learnopencv.com/bag-of-tricks-for-image-classification/
+
+You can find the code along with a Colab Notebook at
+
+https://github.com/spmallick/learnopencv/tree/master/Bag-Of-Tricks-For-Image-Classification
+How much does an AI engineer make?
+
+I am often asked this question by people who are interested in making a career switch to AI. It is a very awkward question but it is something that everybody wants to know. So, I was pleased to see this website by Abhishek Das (Research scientist @ Facebook AI Research) and Prof. Devi Parikh (GeorgiaTech) where they have compiled a list of manually verified AI offers.
+
+https://aipaygrad.es/
+
+The numbers I checked (Level 6 engineers) are in line with what I know from friends who work in that position.
+
+Want to get started in AI?
+
+The best courses for getting started in are the official AI courses by OpenCV.org. Unfortunately, we are currently closed for enrollment because we are a little overbooked. But if you are interested, please join the waitlist. We will give you a discount for the inconvenience!
+
+JOIN THE WAITLIST
+
+
+Satya 
