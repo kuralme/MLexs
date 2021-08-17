@@ -1,0 +1,20 @@
+% Read training data
+e2=load('ex2data1.txt');
+
+% initialize matrices and variables
+X = e2(:,(1:2));
+y = e2(:, 3);
+m = length(y);
+theta = zeros(3,1);
+iterations = 1000;
+alpha = 0.01;
+
+% plot the data
+plotData(X,y);
+
+% adding x0 to X
+X = [ones(m,1) X];
+
+% Compute cost J
+[J, grad] = costFunction(theta, X, y);
+J
